@@ -1,0 +1,50 @@
+### Aliases
+
+alias cdd="cd Desktop/"
+alias c="clear"
+alias ll="ls -lharGot"
+alias wget='wget -c'
+
+# mongo
+alias mps='ps -eaf | grep mongod'
+
+# git
+alias gpl='git pull'
+alias gs='git status'
+alias ga='git add .'
+alias gc='git commit -am'
+alias gps='git push'
+
+# grep
+alias grep='grep -n --color=auto'
+alias egrep='egrep -n --color=auto'
+alias fgrep='fgrep -n --color=auto'
+
+alias ..='cd ..'
+
+alias path='echo -e ${PATH//:/\\n}'
+
+alias cse='ssh z5025193@login.cse.unsw.edu.au'
+alias r00t='ssh -p 8022 comp6447@localhost'
+alias hack='ssh -p 6969 mark@localhost'
+
+# Date and time
+alias now='date +"%T"'
+alias nowtime=now
+alias nowdate='date +"%d-%m-%Y"'
+
+# zsh
+alias config="vim ~/.dotfiles/.zshrc"
+alias ohmyzsh="vim ~/.dotfiles/.oh-my-zsh"
+
+### Functions
+
+# Move into directory after mkdir
+mkcd () {
+    mkdir -pv $1
+    cd $1
+}
+
+
+# TODO:
+# Set up history commands such that 1 will redo most recent command, 2 will redo second most recent, etc

@@ -2,7 +2,7 @@
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 #Path to your oh-my-zsh installation.
-export ZSH="/Users/the_sonn/dotfiles/.oh-my-zsh/"
+export ZSH="/Users/the_sonn/.dotfiles/.oh-my-zsh/"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -55,7 +55,7 @@ ZSH_THEME_RANDOM_CANDIDATES=( "refined" "avit" "terminalparty" "wezm" )
 # HIST_STAMPS="mm/dd/yyyy"
 
 # Would you like to use another custom folder than $ZSH/custom?
-# ZSH_CUSTOM=/path/to/new-custom-folder
+# ZSH_CUSTOM="/Users/the_sonn/.dotfiles/.oh-my-zsh/"
 
 # Which plugins would you like to load?
 # Standard plugins can be found in ~/.oh-my-zsh/plugins/*
@@ -88,7 +88,7 @@ source $ZSH/oh-my-zsh.sh
 # ssh
 # export SSH_KEY_PATH="~/.ssh/rsa_id"
 
-source ~/.aliases
+source ~/.dotfiles/.aliases
 
 zstyle ':bracketed-paste-magic' active-widgets '.self-*'
 
