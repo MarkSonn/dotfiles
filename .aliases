@@ -27,7 +27,8 @@ alias path='echo -e ${PATH//:/\\n}'
 alias cse='ssh z5025193@login.cse.unsw.edu.au'
 alias r00t='ssh -p 8022 comp6447@localhost'
 alias hack='ssh -p 6969 mark@localhost'
-
+alias nettex='ssh root@10.20.20.251'
+alias bmake='bmake -m ~/OS161-utils/share/mk'
 # Date and time
 alias now='date +"%T"'
 alias nowtime=now
@@ -44,6 +45,18 @@ mkcd () {
     mkdir -pv $1
     cd $1
 }
+
+alias copy='pbcopy'
+
+
+# working directories
+
+alias checkout="cd ~/repos/nettex/services/checkout/ && atom ."
+alias gallery="cd ~/repos/nettex/services/gallery/ && atom ."
+
+
+alias update-packages="npx npm-check-updates -u"
+
 
 
 # TODO:
