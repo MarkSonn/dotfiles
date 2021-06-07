@@ -1,0 +1,57 @@
+{
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.formatOnPaste": true,
+    "git.enableSmartCommit": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "material-icon-theme.activeIconPack": "vue_vuex",
+    "workbench.startupEditor": "newUntitledFile",
+    "gitlens.views.repositories.location": "scm",
+    "gitlens.views.fileHistory.location": "explorer",
+    "gitlens.views.lineHistory.location": "explorer",
+    "gitlens.views.compare.location": "gitlens",
+    "gitlens.views.search.location": "gitlens",
+    "workbench.colorCustomizations": {
+    
+        "[Material Theme Darker High Contrast]": {}
+    },
+    "explorer.confirmDragAndDrop": false,
+    "c-cpp-flylint.clang.enable": false,
+    "c-cpp-flylint.flexelint.enable": false,
+    "c-cpp-flylint.cppcheck.enable": false,
+    "dart.flutterSdkPath": "/Users/the_sonn/repos/flutter",
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": false
+    },
+    "json.maxItemsComputed": 5000120,
+    "editor.rulers": [
+     [200]
+    ],
+    "dart.openDevTools": "flutter",
+    "dart.debugExternalLibraries": false,
+    "dart.debugSdkLibraries": false,
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+        }
+    ],
+    "workbench.colorTheme": "Material Theme Darker High Contrast",
+    "workbench.colorCustomizations": {
+        "[Material Theme Darker High Contrast]": {
+            "selection.background": "#20c20e"
+        }
+    },
+    "diffEditor.wordWrap": "on",
+    "editor.wordWrap": "on",
+    "editor.wrappingIndent": "indent",
+    "editor.tabSize": 2,
+}

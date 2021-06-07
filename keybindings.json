@@ -1,0 +1,26 @@
+// Place your key bindings in this file to overwrite the defaultsauto[]
+[
+    {
+        "key": "ctrl+shift+cmd+d",
+        "command": "workbench.view.debug"
+    },
+    {
+        "key": "shift+cmd+d",
+        "command": "-workbench.view.debug"
+    },
+
+    
+    // Mapped to cmd+e for muscle memory with chrome and cmd+p for muscle memory with editors
+    // {
+    //     "key": "cmd+e",
+    //     "command": "workbench.action.quickOpen"
+    // },
+    // {
+    //     "key": "cmd+e",
+    //     "command": "workbench.action.quickOpenNavigateNextInFilePicker"
+    // },
+    // {
+    //     "key": "cmd+e",
+    //     "command": "workbench.action.quickOpenPreviousEditor"
+    // }
+]
