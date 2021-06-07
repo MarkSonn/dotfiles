@@ -3,3 +3,5 @@
 # Please adapt and uncomment the following lines:
 	name = Mark Sonnenschein
 	email = marksonn5@gmail.com
+[pull]
+	ff = only

@@ -97,11 +97,31 @@ export PATH="$PATH:$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$
 
 export N_PREFIX="$HOME/n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PREFIX/bin"  # Added by n-install (see http://git.io/n-install-repo).
 
-# The next line updates PATH for the Google Cloud SDK.
-if [ -f '/Users/the_sonn/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/the_sonn/Downloads/google-cloud-sdk/path.zsh.inc'; fi
-
-# The next line enables shell command completion for gcloud.
-if [ -f '/Users/the_sonn/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/the_sonn/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
-
 #autoload -U +X bashcompinit && bashcompinit
 #complete -o nospace -C /Users/the_sonn/opts/mycli mycli
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/the_sonn/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/the_sonn/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/the_sonn/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/the_sonn/google-cloud-sdk/completion.zsh.inc'; fi
+
+export PATH="$PATH:/Users/the_sonn/repos/flutter/bin"
+
+# export ANDROID_HOME=${HOME}/Android/Sdk
+# export PATH=${PATH}:${ANDROID_HOME}/tools
+# export PATH=${PATH}:${ANDROID_HOME}/platform-tools
+
+# export ANDROID_SDK_ROOT=$ANDROID_HOME
+
+# export PATH=$PATH:$ANDROID_SDK_ROOT/tools:$ANDROID_SDK_ROOT/platform-tools:$ANDROID_SDK_ROOT/tools/lib/x86_64
+
+export ANDROID_HOME=~/Library/Android/sdk
+export PATH=${PATH}:${ANDROID_HOME}/tools
+export PATH=${PATH}:${ANDROID_HOME}/platform-tools
+
+export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
+export NODE_ENV='development'
+
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+export PATH="/usr/local/opt/ruby/bin:/usr/local/lib/ruby/gems/2.7.0/bin:$PATH"
